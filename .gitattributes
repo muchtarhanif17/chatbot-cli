@@ -1,0 +1,44 @@
+# =========================
+# Global text handling
+# =========================
+* text=auto eol=lf
+
+# =========================
+# Go specific files
+# =========================
+*.go     text eol=lf
+go.mod   text eol=lf
+go.sum   text eol=lf
+
+# =========================
+# Config & text files
+# =========================
+*.md     text eol=lf
+*.txt    text eol=lf
+*.json   text eol=lf
+*.yaml   text eol=lf
+*.yml    text eol=lf
+*.env    text eol=lf
+
+# =========================
+# Shell scripts
+# =========================
+*.sh     text eol=lf
+
+# =========================
+# Windows scripts (optional)
+# =========================
+*.bat    text eol=crlf
+*.ps1    text eol=crlf
+
+# =========================
+# Binary files
+# =========================
+*.exe    binary
+*.dll    binary
+*.so     binary
+*.zip    binary
+*.pdf    binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
